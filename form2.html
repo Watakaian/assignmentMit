@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form2</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+     <div id="formContainer">
+        <form id="formC">
+        <div class="rows">
+          <div class="column">
+              <label class="theLabels">
+
+                Name:
+            </label>
+              <input class="theInputs" type="text" placeholder="yourname" required="required"/>
+          </div>
+
+          <div class="column">
+              <label class="theLabels">
+
+                Email:
+            </label>
+              <input class="theInputs" type="email" placeholder="your email" required="required"/>
+          </div>
+          <div class="column">
+              <label class="theLabels">
+
+                Password:
+            </label>
+              <input class="theInputs" type="password" required="required"/>
+          </div>
+            <div class="column">
+              <label class="theLabels">
+
+                Phone Number:
+            </label>
+              <input class="theInputs" type="number" required="required"/>
+            </div>
+                <div class="column">
+              <label class="theLabels">
+
+                Gender:
+            </label>
+              <div>
+                        <div class="theInputs">
+                     <label for="male">Male</label>
+                     <input type="radio" id="male">
+                     <label for="female">Female</label>
+                     <input type="radio" id="female">
+                     <label for="other">Other</label>
+                     <input type="radio" id="other">
+                        </div>
+            <div>
+                <label for="language" class="theLabels">
+                    Language
+                </label>
+                <select name="" id="language" class="theInputs">
+                    <option value="" disabled="disabled">Select language</option>
+                    <option value="">English</option>
+                    <option value="">Abawanga</option>
+                    <option value="">French</option>
+                </select>
+            </div>
+                    <div class="column">
+              <label class="theLabels">
+
+                Zip code:
+            </label>
+              <input class="theInputs" type="number" required="required"/>
+          </div>
+                    <div class="column">
+              <label class="theLabels">
+
+                About:
+            </label>
+                        <textarea name="" id="" cols="30" rows="1.5" class="theInputs" placeholder="Write about yourself" required="required"></textarea>
+          </div>
+
+        </div>
+            <br><br>
+            <center>  <button type="submit">Register</button></center>
+
+        </form>
+        </div>
+</body>
+</html>

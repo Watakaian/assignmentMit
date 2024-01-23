@@ -1,0 +1,46 @@
+body{
+    background-color: #931b40;
+    color: white;
+}
+form{
+    margin: auto;
+    width: 50%;
+    background-color: #4d041a;
+    padding: 45px;
+}
+ #formContainer{
+            width:40%;
+            margin:auto;
+          }
+          #formC{
+            width:100%;
+          }
+          .rows{
+            width:100%;
+            display:block;
+
+          }
+          .column{
+              width:100%;
+              display:inline-block;
+
+          }
+          .theLabels{
+
+            width:30%;
+            float:left;
+          }
+          .theInputs{
+
+            height: 20px;
+            width:60%;
+            float:right;
+          }
+          button{
+              width: 60%;
+              background-color: white;
+              height: 27px;
+          }
+          input,select{
+              margin-bottom: 7px;
+          }

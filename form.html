@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formAssignment</title>
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+</head>
+<body>
+<p style="text-align: center; font-size: 30px"><u><b>Project Management</b></u></p>
+<div id="formContainer">
+<form action="" id="formC">
+    <div class="rows">
+  <div class="column">
+    <label for="pname" class="theLabels">Project Name</label>
+    <input type="text" id="pname" placeholder="project name"class="theInputs" required="required">
+  </div>
+      <br><br>
+    <label for="ass-to" class="theLabels">Assign to</label>
+    <select name="ass-to" id="ass-to">
+        <option value="Wataka" disabled="disabled">e.g Wataka</option>
+        <option value="Wataka">Ian</option>
+        <option value="Wataka">Munyendo</option>
+        <option value="Wataka">Wataka</option>
+    </select><br><br>
+    <label for="st-date" class="theLabel">Start date</label>
+    <input type="date" id="st-date" required="required" class="theInput"><br><br>
+    <label for="en-date" class="theLabel">End date</label>
+    <input type="date" id="en-date" required="required" class="mov2 theInput"><br><br>
+    <label class="theLabel" >Priority</label>
+
+
+    <input type="radio" id="high">
+     <label for="high" class="mov">High</label>
+    <input type="radio" id="average">
+  <label for="average" class="mov">Average</label>
+    <input type="radio" id="low">
+<label for="low" class="mov">Low</label>
+    <br><br>
+
+
+    <label for="desc" class="theLabel">Description</label>
+    <textarea name="" id="desc" cols="65" rows="3"></textarea><br><br>
+
+   <center><button style="background-color: greenyellow;color: white">Submit</button>  <button style="background-color: blue;color: white">Clear</button></center>
+</form>
+</div>
+</body>
+</html>

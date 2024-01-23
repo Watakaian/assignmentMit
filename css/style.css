@@ -1,0 +1,16 @@
+
+#main{
+    display: grid;
+}
+.paraimage1{
+    display: flex;
+}
+.paraimage2{
+    display: flex;
+}
+.paraimage3{
+    display: flex;
+}
+p{
+    margin-left: 30px;
+}
